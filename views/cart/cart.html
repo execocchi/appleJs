@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/img/68585-engine-search-smartphone-apple-optimization-iphone-logo.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="cart.css" />
+    <title>Shopping cart</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index/index.html">
+            <img src="/img/apple (3).png" alt="apple-icon" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#">
+                Airpods
+              </a>
+              <a class="nav-link" href="#">Iphone</a>
+              <a class="nav-link" href="#">Ipad</a>
+              <a class="nav-link" href="#">Apple Watch</a>
+              <a class="nav-link" href="/views/login/login.html">Log-in</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="shooping-cart">
+        <button class="openbtn" id="cart">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart-fill shopping-cart text-muted"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <div id="alert">
+        <h1>Products</h1>
+      </div>
+      <article>
+        <div class="container" id="products-list">
+          <div class="row">
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="../../img/690px-IPadminiBlack.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ipad mini</h5>
+                <p class="card-text">
+                  iPad mini is meticulously designed to be absolutely beautiful.
+                  An all-new enclosure features a new, larger edge-to-edge
+                  screen, along with narrow borders and elegant rounded corners.
+                </p>
+                <p class="card-price">$600</p>
+                <a href="#" class="btn btn-dark buy">Add to cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="../../img/IPhone_12_Pro.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Iphone 12 pro</h5>
+                <p class="card-text">
+                  A superpowerful chip. 5G speed. An advanced dual‑camera
+                  system. A Ceramic Shield front that's tougher than any
+                  smartphone glass. And a bright, beautiful OLED display. iPhone
+                  12 has it all — in two great sizes.
+                </p>
+                <p class="card-price">$350</p>
+                <a href="#" class="btn btn-dark buy">Add to cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="../../img/hipertextual-asi-es-nuevo-apple-watch-se-nuevo-reloj-economico-apple-que-ha-llegado-quedarse-2020039207.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Apple watch</h5>
+                <p class="card-text">
+                  Measure your blood oxygen level with a revolutionary sensor
+                  and app. Take an ECG anytime, anywhere. See your fitness
+                  metrics at a glance with the enhanced Always-On Retina
+                  display.
+                </p>
+                <p class="card-price">$900</p>
+                <a href="#" class="btn btn-dark buy">Add to cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="../../img/airpods.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Air pods</h5>
+                <p class="card-text">
+                  We refined the details of comfort, creating a new class of
+                  in-ear headphones with a customizable fit that forms an
+                  exceptional seal for Active Noise Cancellation. You’ll feel
+                  your music, not your headphones.
+                </p>
+                <p class="card-price">$700</p>
+                <a href="#" class="btn btn-dark buy">Add to cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="../../img/apple-watch-series-7-lte-45mm-starlight-aluminum-starlight-sport-band-mkj83ll-a-sku4790172.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Apple watch</h5>
+                <p class="card-text">
+                  Powerful features to help keep you connected, active, healthy,
+                  and safe. Advanced sensors to track all the ways you move and
+                  to measure your favorite workouts. And available cellular so
+                  you can go without your phone.
+                </p>
+                <p class="card-price">$400</p>
+                <a href="#" class="btn btn-dark buy">Add to cart</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="../../img/tablet.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ipad</h5>
+                <p class="card-text">
+                  Powerful. Easy to use. Versatile. The new iPad is designed for
+                  all the things you love to do. Work, play, create, learn, stay
+                  connected, and more. All at an incredible value.
+                </p>
+                <p class="card-price">$500</p>
+                <a href="#" class="btn btn-dark buy">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-items"></div>
+      </article>
+    </main>
+
+    <script src="cart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+      integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
